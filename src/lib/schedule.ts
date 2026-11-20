@@ -1,5 +1,5 @@
 import raw from "@/data/schedule.json";
-import { addDays, span, torontoStamp } from "./format";
+import { addDays, torontoStamp } from "./format";
 import type { Program, ScheduleData } from "./types";
 
 export const schedule = raw as ScheduleData;
@@ -12,11 +12,6 @@ export function getProgram(slug: string) {
 
 export function locationsOf(program: Program) {
   return [...new Set(program.sessions.map((s) => s.location).filter(Boolean))];
-}
-
-export function hourRange(): [number, number] {
-  const spans = schedule.programs.flatMap((p) => p.sessions.map(span));
-  return [Math.floor(Math.min(...spans.map((s) => s[0]))), Math.ceil(Math.max(...spans.map((s) => s[1])))];
 }
 
 export function upcoming(program: Program, days?: number) {

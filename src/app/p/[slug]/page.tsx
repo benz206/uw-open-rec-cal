@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { ArrowLeft, ArrowUpRight, MapPin } from "lucide-react";
 import { SessionList } from "@/components/session-list";
 import { Subscribe } from "@/components/subscribe";
 import { builtAt, getProgram, locationsOf, schedule, upcoming } from "@/lib/schedule";
@@ -15,7 +16,7 @@ export async function generateMetadata({ params }: PageProps<"/p/[slug]">): Prom
   const program = getProgram((await params).slug);
   return {
     title: program?.name,
-    description: `Drop-in times for UW ${program?.name}, with a calendar feed for Apple Calendar, Google Calendar and Outlook.`,
+    description: `Subscribe to the UW ${program?.name} drop-in schedule in Apple Calendar, Google Calendar or Outlook.`,
   };
 }
 
@@ -25,52 +26,66 @@ export default async function ProgramPage({ params }: PageProps<"/p/[slug]">) {
   const locations = locationsOf(program);
 
   return (
-    <div className="pt-8 sm:pt-12">
-      <Link href="/" className="text-sm text-muted underline-offset-2 hover:text-ink hover:underline">
+    <div className="pt-8 sm:pt-10">
+      <Link href="/" className="inline-flex items-center gap-1.5 text-sm text-muted hover:text-fg">
+        <ArrowLeft aria-hidden className="size-4" />
         All programs
       </Link>
-      <h1 className="wide mt-4 text-[2.5rem] leading-[0.95] font-extrabold tracking-tight text-balance sm:text-6xl">
-        {program.name}
-      </h1>
-      {locations.length > 0 && (
-        <p className="mt-4 max-w-2xl text-muted">
-          Drop-in at {new Intl.ListFormat("en", { type: "conjunction" }).format(locations)}.
-        </p>
-      )}
 
-      <div className="mt-10 grid gap-12 lg:grid-cols-[1fr_20rem] lg:items-start lg:gap-16">
-        <aside className="grid gap-8 lg:sticky lg:top-6 lg:col-start-2 lg:row-start-1">
-          <section aria-labelledby="add-heading" className="grid gap-3">
-            <h2 id="add-heading" className="text-lg font-bold">
-              Add to your calendar
-            </h2>
-            <Subscribe slug={program.slug} name={program.name} />
-            <p className="text-sm text-pretty text-muted">
-              Subscribing keeps your calendar in step with this schedule, including time changes and cancellations.
+      <header className="mt-6 grid gap-4">
+        <h1 className="text-3xl font-semibold tracking-tight text-balance sm:text-4xl">{program.name}</h1>
+        <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm">
+          {locations.length > 0 && (
+            <p className="flex items-start gap-1.5 text-muted">
+              <MapPin aria-hidden className="mt-0.5 size-4 shrink-0" />
+              {locations.join(", ")}
             </p>
-          </section>
-          {program.description && (
-            <details className="border-t border-rule pt-4">
-              <summary className="cursor-pointer font-semibold">About this program</summary>
-              <p className="mt-3 text-sm whitespace-pre-line text-muted">{program.description}</p>
-            </details>
           )}
           <a
             href={program.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="border-t border-rule pt-4 text-sm font-semibold underline underline-offset-2"
+            className="inline-flex items-center gap-1 font-medium text-accent underline-offset-4 hover:underline"
           >
-            Official page on warrior.uwaterloo.ca
-            <span className="sr-only"> (opens in a new tab)</span>
+            Official program page
+            <ArrowUpRight aria-hidden className="size-4" />
+            <span className="sr-only">(opens in a new tab)</span>
           </a>
+        </div>
+        <ul aria-label="Semesters" className="flex flex-wrap gap-2">
+          {program.semesters.map((s) => (
+            <li
+              key={s.id}
+              className={`rounded-md border px-2 py-0.5 text-xs font-medium ${
+                s.hasOfferings ? "border-line bg-card" : "border-dashed border-line text-muted"
+              }`}
+            >
+              {s.hasOfferings ? s.name : `${s.name} (not posted yet)`}
+            </li>
+          ))}
+        </ul>
+      </header>
+
+      <div className="mt-8 grid gap-10 lg:grid-cols-[1fr_20rem] lg:items-start">
+        <aside
+          aria-labelledby="subscribe-heading"
+          className="grid gap-4 rounded-xl border border-line bg-card p-5 lg:sticky lg:top-6 lg:col-start-2 lg:row-start-1"
+        >
+          <h2 id="subscribe-heading" className="font-semibold">
+            Add to your calendar
+          </h2>
+          <Subscribe slug={program.slug} name={program.name} />
+          <p className="text-xs/relaxed text-muted">
+            Your calendar stays in sync as the schedule changes. Google Calendar can take up to a day to pick up
+            updates.
+          </p>
         </aside>
-        <SessionList
-          sessions={upcoming(program)}
-          semesters={program.semesters}
-          fallbackNow={builtAt}
-          showLocation={locations.length > 1}
-        />
+        <div className="grid gap-10">
+          {program.description && (
+            <p className="max-w-2xl text-sm/relaxed whitespace-pre-line text-pretty text-muted">{program.description}</p>
+          )}
+          <SessionList sessions={upcoming(program)} semesters={program.semesters} fallbackNow={builtAt} />
+        </div>
       </div>
     </div>
   );
