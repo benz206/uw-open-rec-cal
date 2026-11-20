@@ -17,7 +17,7 @@ export function locationsOf(program: Program) {
 export function upcoming(program: Program, days?: number) {
   const from = builtAt.slice(0, 10);
   const future = program.sessions
-    .filter((s) => s.date >= from)
+    .filter((s) => s.date >= addDays(from, -1))
     .sort((a, b) => `${a.date} ${a.start}`.localeCompare(`${b.date} ${b.start}`));
   if (!days) return future;
   const limit = addDays(from, days);

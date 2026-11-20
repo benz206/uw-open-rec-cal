@@ -16,7 +16,8 @@ export function torontoStamp(at: Date) {
 }
 
 export function isOver(s: Session, now: string) {
-  return `${s.date} ${s.end}` <= now;
+  const endDate = s.end <= s.start ? addDays(s.date, 1) : s.date;
+  return `${endDate} ${s.end}` <= now;
 }
 
 export function isLive(s: Session, now: string) {
