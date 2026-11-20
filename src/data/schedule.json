@@ -1,0 +1,376 @@
+{
+  "generatedAt": "2026-11-20T18:00:00.000Z",
+  "timezone": "America/Toronto",
+  "programs": [
+    {
+      "slug": "open-rec-skate",
+      "name": "Open Rec Skate",
+      "courseId": "d5521154-639f-4afb-93cd-971b00cc708c",
+      "url": "https://warrior.uwaterloo.ca/Program/GetProgramDetails?courseId=d5521154-639f-4afb-93cd-971b00cc708c",
+      "description": "NO REGISTRATION REQUIRED - Open Recreation Skate is designed to maximize participation, and to be able to accommodate all types of users.",
+      "semesters": [
+        {
+          "id": "84d2b1ab-ff7c-4fb3-9281-3249de475a80",
+          "name": "Fall 2026",
+          "hasOfferings": true
+        },
+        {
+          "id": "f966b35d-96ad-4897-97c4-dd6eac9f1f1e",
+          "name": "Winter 2027",
+          "hasOfferings": false
+        }
+      ],
+      "sessions": [
+        {
+          "id": "open-rec-skate-2026-11-16-1030",
+          "date": "2026-11-16",
+          "start": "10:30",
+          "end": "11:30",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-skate-2026-11-17-1300",
+          "date": "2026-11-17",
+          "start": "13:00",
+          "end": "14:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-skate-2026-11-18-1300",
+          "date": "2026-11-18",
+          "start": "13:00",
+          "end": "14:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-skate-2026-11-19-1100",
+          "date": "2026-11-19",
+          "start": "11:00",
+          "end": "12:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-skate-2026-11-20-1200",
+          "date": "2026-11-20",
+          "start": "12:00",
+          "end": "13:00",
+          "location": "CIF Arena",
+          "status": "changed",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-skate-2026-11-23-1030",
+          "date": "2026-11-23",
+          "start": "10:30",
+          "end": "11:30",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-skate-2026-11-24-1300",
+          "date": "2026-11-24",
+          "start": "13:00",
+          "end": "14:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-skate-2026-11-25-1300",
+          "date": "2026-11-25",
+          "start": "13:00",
+          "end": "14:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-skate-2026-11-26-1100",
+          "date": "2026-11-26",
+          "start": "11:00",
+          "end": "12:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-skate-2026-11-27-1100",
+          "date": "2026-11-27",
+          "start": "11:00",
+          "end": "12:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-skate-2026-11-30-1030",
+          "date": "2026-11-30",
+          "start": "10:30",
+          "end": "11:30",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-skate-2026-12-01-1300",
+          "date": "2026-12-01",
+          "start": "13:00",
+          "end": "14:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-skate-2026-12-02-1300",
+          "date": "2026-12-02",
+          "start": "13:00",
+          "end": "14:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-skate-2026-12-03-1100",
+          "date": "2026-12-03",
+          "start": "11:00",
+          "end": "12:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-skate-2026-12-04-1200",
+          "date": "2026-12-04",
+          "start": "12:00",
+          "end": "13:00",
+          "location": "CIF Arena",
+          "status": "changed",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-skate-2026-12-07-1030",
+          "date": "2026-12-07",
+          "start": "10:30",
+          "end": "11:30",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-skate-2026-12-08-1300",
+          "date": "2026-12-08",
+          "start": "13:00",
+          "end": "14:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-skate-2026-12-09-1300",
+          "date": "2026-12-09",
+          "start": "13:00",
+          "end": "14:00",
+          "location": "CIF Arena",
+          "status": "cancelled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-skate-2026-12-10-1100",
+          "date": "2026-12-10",
+          "start": "11:00",
+          "end": "12:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-skate-2026-12-11-1200",
+          "date": "2026-12-11",
+          "start": "12:00",
+          "end": "13:00",
+          "location": "CIF Arena",
+          "status": "changed",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-skate-2026-12-14-1030",
+          "date": "2026-12-14",
+          "start": "10:30",
+          "end": "11:30",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-skate-2026-12-15-1300",
+          "date": "2026-12-15",
+          "start": "13:00",
+          "end": "14:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-skate-2026-12-16-1300",
+          "date": "2026-12-16",
+          "start": "13:00",
+          "end": "14:00",
+          "location": "CIF Arena",
+          "status": "cancelled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-skate-2026-12-17-1100",
+          "date": "2026-12-17",
+          "start": "11:00",
+          "end": "12:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-skate-2026-12-18-1100",
+          "date": "2026-12-18",
+          "start": "11:00",
+          "end": "12:00",
+          "location": "CIF Arena",
+          "status": "cancelled",
+          "semester": "Fall 2026"
+        }
+      ]
+    },
+    {
+      "slug": "open-rec-basketball",
+      "name": "Open Rec Basketball",
+      "courseId": "00000000-0000-0000-0000-000000000000",
+      "url": "https://warrior.uwaterloo.ca/",
+      "description": "SAMPLE DATA - drop-in basketball.",
+      "semesters": [
+        {
+          "id": "84d2b1ab-ff7c-4fb3-9281-3249de475a80",
+          "name": "Fall 2026",
+          "hasOfferings": true
+        }
+      ],
+      "sessions": [
+        {
+          "id": "open-rec-basketball-2026-11-16-1900",
+          "date": "2026-11-16",
+          "start": "19:00",
+          "end": "22:00",
+          "location": "PAC Main Gym",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-basketball-2026-11-18-1900",
+          "date": "2026-11-18",
+          "start": "19:00",
+          "end": "22:00",
+          "location": "PAC Main Gym",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-basketball-2026-11-20-1900",
+          "date": "2026-11-20",
+          "start": "19:00",
+          "end": "22:00",
+          "location": "PAC Main Gym",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-basketball-2026-11-23-1900",
+          "date": "2026-11-23",
+          "start": "19:00",
+          "end": "22:00",
+          "location": "PAC Main Gym",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-basketball-2026-11-25-1900",
+          "date": "2026-11-25",
+          "start": "19:00",
+          "end": "22:00",
+          "location": "PAC Main Gym",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-basketball-2026-11-27-1900",
+          "date": "2026-11-27",
+          "start": "19:00",
+          "end": "22:00",
+          "location": "PAC Main Gym",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-basketball-2026-11-30-1900",
+          "date": "2026-11-30",
+          "start": "19:00",
+          "end": "22:00",
+          "location": "PAC Main Gym",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-basketball-2026-12-02-1900",
+          "date": "2026-12-02",
+          "start": "19:00",
+          "end": "22:00",
+          "location": "PAC Main Gym",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-basketball-2026-12-04-1900",
+          "date": "2026-12-04",
+          "start": "19:00",
+          "end": "22:00",
+          "location": "PAC Main Gym",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-basketball-2026-12-07-1900",
+          "date": "2026-12-07",
+          "start": "19:00",
+          "end": "22:00",
+          "location": "PAC Main Gym",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-basketball-2026-12-09-1900",
+          "date": "2026-12-09",
+          "start": "19:00",
+          "end": "22:00",
+          "location": "PAC Main Gym",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-basketball-2026-12-11-1900",
+          "date": "2026-12-11",
+          "start": "19:00",
+          "end": "22:00",
+          "location": "PAC Main Gym",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        }
+      ]
+    }
+  ]
+}
