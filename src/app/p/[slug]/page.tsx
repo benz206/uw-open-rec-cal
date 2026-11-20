@@ -55,7 +55,7 @@ export default async function ProgramPage({ params }: PageProps<"/p/[slug]">) {
             </li>
           ))}
         </ul>
-        {program.description && <p className="max-w-2xl text-pretty text-muted">{program.description}</p>}
+        {program.description && <p className="max-w-2xl whitespace-pre-line text-pretty text-muted">{program.description}</p>}
         <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm">
           {locations.length > 0 && (
             <p className="flex items-start gap-1.5 text-muted">

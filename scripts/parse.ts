@@ -43,9 +43,11 @@ export function parseProgramDetail(html: string) {
   $("button[data-semester-id]").each((_, b) => {
     semesters.set($(b).attr("data-semester-id")!, clean($(b).text()));
   });
+  const desc = $("#progDesc");
+  desc.find("br, p").before("\n");
   return {
     byOffering: $("#IsProgramByOffering").val() === "True",
-    description: clean($("#progDesc").text()),
+    description: desc.text().split("\n").map(clean).filter(Boolean).join("\n"),
     semesters: [...semesters].map(([id, name]) => ({ id, name })),
   };
 }

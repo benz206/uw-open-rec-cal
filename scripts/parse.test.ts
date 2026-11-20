@@ -57,7 +57,9 @@ describe("listing and detail pages", () => {
       { id: "f966b35d-96ad-4897-97c4-dd6eac9f1f1e", name: "Winter 2027" },
     ]);
     expect(detail.description).toMatch(/^NO REGISTRATION REQUIRED - Open Recreation Skate is designed/);
-    expect(detail.description).not.toMatch(/\s{2}|<|\n/);
+    expect(detail.description).not.toMatch(/ {2}|<|\n\n|^ | $/m);
+    expect(detail.description).toContain("**Please Note**\n- All users must have a valid Warrior Recreation membership");
+    expect(detail.description.split("\n")).toHaveLength(7);
   });
 });
 
