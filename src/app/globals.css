@@ -1,26 +1,90 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: dark;
+  --bg: #07090f;
+  --surface: #0d111b;
+  --surface-2: #161b28;
+  --line: rgb(255 255 255 / 0.08);
+  --fg: #eef1f7;
+  --muted: #8d95a9;
+  --volt: #c8f24a;
+  --on-volt: #0b1000;
+  --volt-text: #c8f24a;
+  --ice: #63e2f7;
+  --coral: #ff7f6e;
+  --amber: #fbbf52;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    color-scheme: light;
+    --bg: #f4f5ef;
+    --surface: #ffffff;
+    --surface-2: #eceee6;
+    --line: rgb(12 16 28 / 0.1);
+    --fg: #0c101c;
+    --muted: #586073;
+    --volt: #c4ee3c;
+    --volt-text: #4a7300;
+    --ice: #0e7490;
+    --coral: #c2412d;
+    --amber: #9a5b00;
   }
 }
 
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--line);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-volt: var(--volt);
+  --color-on-volt: var(--on-volt);
+  --color-volt-text: var(--volt-text);
+  --color-ice: var(--ice);
+  --color-coral: var(--coral);
+  --color-amber: var(--amber);
+  --font-sans: var(--font-body);
+  --font-display: var(--font-heading);
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background:
+    radial-gradient(56rem 28rem at 88% -8%, color-mix(in oklab, var(--volt) 13%, transparent), transparent 70%),
+    radial-gradient(48rem 26rem at -12% 4%, color-mix(in oklab, var(--ice) 11%, transparent), transparent 70%),
+    var(--bg);
+  background-repeat: no-repeat;
+  color: var(--fg);
+}
+
+:focus-visible {
+  outline: 2px solid var(--volt-text);
+  outline-offset: 2px;
+}
+
+input:focus-visible {
+  outline-offset: 0;
+}
+
+.court-lines {
+  background-image:
+    linear-gradient(var(--line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--line) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse 70% 60% at 50% 0%, black, transparent 75%);
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .rise {
+    animation: rise 0.5s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  }
 }
