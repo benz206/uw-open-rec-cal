@@ -1,90 +1,65 @@
 @import "tailwindcss";
 
 :root {
-  color-scheme: dark;
-  --bg: #07090f;
-  --surface: #0d111b;
-  --surface-2: #161b28;
-  --line: rgb(255 255 255 / 0.08);
-  --fg: #eef1f7;
-  --muted: #8d95a9;
-  --volt: #c8f24a;
-  --on-volt: #0b1000;
-  --volt-text: #c8f24a;
-  --ice: #63e2f7;
-  --coral: #ff7f6e;
-  --amber: #fbbf52;
+  color-scheme: light;
+  --page: #edf0ef;
+  --surface: #f8faf9;
+  --ink: #172a3a;
+  --muted: #56636f;
+  --rule: #c9d1d0;
+  --faint: #dde3e2;
+  --court: #2c5dc4;
+  --court-soft: #dce5f7;
+  --on-court: #ffffff;
+  --red: #c42b3b;
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
-    color-scheme: light;
-    --bg: #f4f5ef;
-    --surface: #ffffff;
-    --surface-2: #eceee6;
-    --line: rgb(12 16 28 / 0.1);
-    --fg: #0c101c;
-    --muted: #586073;
-    --volt: #c4ee3c;
-    --volt-text: #4a7300;
-    --ice: #0e7490;
-    --coral: #c2412d;
-    --amber: #9a5b00;
+    color-scheme: dark;
+    --page: #121a22;
+    --surface: #18222c;
+    --ink: #e3e9ee;
+    --muted: #94a2ae;
+    --rule: #2f3c48;
+    --faint: #24303b;
+    --court: #6f98ee;
+    --court-soft: #1d2c44;
+    --on-court: #0d1620;
+    --red: #f06b76;
   }
 }
 
 @theme inline {
-  --color-bg: var(--bg);
+  --color-page: var(--page);
   --color-surface: var(--surface);
-  --color-surface-2: var(--surface-2);
-  --color-line: var(--line);
-  --color-fg: var(--fg);
+  --color-ink: var(--ink);
   --color-muted: var(--muted);
-  --color-volt: var(--volt);
-  --color-on-volt: var(--on-volt);
-  --color-volt-text: var(--volt-text);
-  --color-ice: var(--ice);
-  --color-coral: var(--coral);
-  --color-amber: var(--amber);
-  --font-sans: var(--font-body);
-  --font-display: var(--font-heading);
+  --color-rule: var(--rule);
+  --color-faint: var(--faint);
+  --color-court: var(--court);
+  --color-court-soft: var(--court-soft);
+  --color-on-court: var(--on-court);
+  --color-red: var(--red);
+  --font-sans: var(--font-archivo);
 }
 
 body {
-  background:
-    radial-gradient(56rem 28rem at 88% -8%, color-mix(in oklab, var(--volt) 13%, transparent), transparent 70%),
-    radial-gradient(48rem 26rem at -12% 4%, color-mix(in oklab, var(--ice) 11%, transparent), transparent 70%),
-    var(--bg);
-  background-repeat: no-repeat;
-  color: var(--fg);
+  background: var(--page);
+  color: var(--ink);
 }
 
 :focus-visible {
-  outline: 2px solid var(--volt-text);
+  outline: 2px solid var(--court);
   outline-offset: 2px;
 }
 
-input:focus-visible {
-  outline-offset: 0;
+.wide {
+  font-stretch: 125%;
 }
 
-.court-lines {
-  background-image:
-    linear-gradient(var(--line) 1px, transparent 1px),
-    linear-gradient(90deg, var(--line) 1px, transparent 1px);
-  background-size: 48px 48px;
-  mask-image: radial-gradient(ellipse 70% 60% at 50% 0%, black, transparent 75%);
-}
-
-@keyframes rise {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .rise {
-    animation: rise 0.5s cubic-bezier(0.2, 0.7, 0.2, 1) both;
-  }
+.track {
+  background-color: var(--surface);
+  background-image: linear-gradient(to right, var(--faint) 1px, transparent 1px);
+  background-size: calc(100% / var(--hours)) 100%;
 }

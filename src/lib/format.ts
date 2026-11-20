@@ -24,6 +24,17 @@ export function isLive(s: Session, now: string) {
   return `${s.date} ${s.start}` <= now && !isOver(s, now);
 }
 
+export function hoursOf(time: string) {
+  const [h, m] = time.split(":").map(Number);
+  return h + m / 60;
+}
+
+export function span(s: Session): [number, number] {
+  const start = hoursOf(s.start);
+  const end = hoursOf(s.end);
+  return [start, end <= start ? end + 24 : end];
+}
+
 function utc(date: string) {
   return new Date(`${date}T00:00:00Z`);
 }
@@ -40,14 +51,6 @@ export function weekStart(date: string) {
 
 export function formatDate(date: string, options: Intl.DateTimeFormatOptions) {
   return utc(date).toLocaleDateString("en-US", { timeZone: "UTC", ...options });
-}
-
-export function relativeDay(date: string, today: string) {
-  const diff = (utc(date).getTime() - utc(today).getTime()) / 86_400_000;
-  if (diff === 0) return "Today";
-  if (diff === 1) return "Tomorrow";
-  if (diff < 7) return formatDate(date, { weekday: "long" });
-  return formatDate(date, { weekday: "short", month: "short", day: "numeric" });
 }
 
 function clock(time: string) {
