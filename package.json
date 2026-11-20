@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "scrape": "tsx scripts/scrape.ts",
+    "ics": "tsx scripts/build-ics.ts",
+    "prebuild": "tsx scripts/build-ics.ts",
+    "test": "vitest run"
   },
   "dependencies": {
     "cheerio": "^1.2.0",
