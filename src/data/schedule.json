@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T18:31:59.919Z",
+  "generatedAt": "2026-11-21T07:14:07.669Z",
   "timezone": "America/Toronto",
   "programs": [
     {
@@ -8693,7 +8693,7 @@
         {
           "id": "f966b35d-96ad-4897-97c4-dd6eac9f1f1e",
           "name": "Winter 2027",
-          "hasOfferings": false
+          "hasOfferings": true
         }
       ],
       "sessions": [
@@ -9326,6 +9326,654 @@
           "location": "CIF Arena",
           "status": "cancelled",
           "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-skate-2027-01-12-1300",
+          "date": "2027-01-12",
+          "start": "13:00",
+          "end": "14:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-01-13-1100",
+          "date": "2027-01-13",
+          "start": "11:00",
+          "end": "12:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-01-14-1100",
+          "date": "2027-01-14",
+          "start": "11:00",
+          "end": "12:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-01-15-1400",
+          "date": "2027-01-15",
+          "start": "14:00",
+          "end": "15:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-01-18-1030",
+          "date": "2027-01-18",
+          "start": "10:30",
+          "end": "11:30",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-01-19-1300",
+          "date": "2027-01-19",
+          "start": "13:00",
+          "end": "14:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-01-20-1100",
+          "date": "2027-01-20",
+          "start": "11:00",
+          "end": "12:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-01-21-1100",
+          "date": "2027-01-21",
+          "start": "11:00",
+          "end": "12:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-01-22-1400",
+          "date": "2027-01-22",
+          "start": "14:00",
+          "end": "15:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-01-25-1030",
+          "date": "2027-01-25",
+          "start": "10:30",
+          "end": "11:30",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-01-26-1300",
+          "date": "2027-01-26",
+          "start": "13:00",
+          "end": "14:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-01-27-1100",
+          "date": "2027-01-27",
+          "start": "11:00",
+          "end": "12:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-01-28-1100",
+          "date": "2027-01-28",
+          "start": "11:00",
+          "end": "12:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-01-29-1400",
+          "date": "2027-01-29",
+          "start": "14:00",
+          "end": "15:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-02-01-1030",
+          "date": "2027-02-01",
+          "start": "10:30",
+          "end": "11:30",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-02-02-1300",
+          "date": "2027-02-02",
+          "start": "13:00",
+          "end": "14:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-02-03-1100",
+          "date": "2027-02-03",
+          "start": "11:00",
+          "end": "12:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-02-04-1100",
+          "date": "2027-02-04",
+          "start": "11:00",
+          "end": "12:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-02-05-1400",
+          "date": "2027-02-05",
+          "start": "14:00",
+          "end": "15:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-02-08-1030",
+          "date": "2027-02-08",
+          "start": "10:30",
+          "end": "11:30",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-02-09-1300",
+          "date": "2027-02-09",
+          "start": "13:00",
+          "end": "14:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-02-10-1100",
+          "date": "2027-02-10",
+          "start": "11:00",
+          "end": "12:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-02-11-1100",
+          "date": "2027-02-11",
+          "start": "11:00",
+          "end": "12:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-02-12-1400",
+          "date": "2027-02-12",
+          "start": "14:00",
+          "end": "15:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-02-15-1030",
+          "date": "2027-02-15",
+          "start": "10:30",
+          "end": "11:30",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-02-16-1300",
+          "date": "2027-02-16",
+          "start": "13:00",
+          "end": "14:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-02-17-1100",
+          "date": "2027-02-17",
+          "start": "11:00",
+          "end": "12:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-02-18-1100",
+          "date": "2027-02-18",
+          "start": "11:00",
+          "end": "12:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-02-19-1400",
+          "date": "2027-02-19",
+          "start": "14:00",
+          "end": "15:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-02-22-1030",
+          "date": "2027-02-22",
+          "start": "10:30",
+          "end": "11:30",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-02-23-1300",
+          "date": "2027-02-23",
+          "start": "13:00",
+          "end": "14:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-02-24-1100",
+          "date": "2027-02-24",
+          "start": "11:00",
+          "end": "12:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-02-25-1100",
+          "date": "2027-02-25",
+          "start": "11:00",
+          "end": "12:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-02-26-1400",
+          "date": "2027-02-26",
+          "start": "14:00",
+          "end": "15:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-03-01-1030",
+          "date": "2027-03-01",
+          "start": "10:30",
+          "end": "11:30",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-03-02-1300",
+          "date": "2027-03-02",
+          "start": "13:00",
+          "end": "14:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-03-03-1100",
+          "date": "2027-03-03",
+          "start": "11:00",
+          "end": "12:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-03-04-1100",
+          "date": "2027-03-04",
+          "start": "11:00",
+          "end": "12:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-03-05-1400",
+          "date": "2027-03-05",
+          "start": "14:00",
+          "end": "15:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-03-08-1030",
+          "date": "2027-03-08",
+          "start": "10:30",
+          "end": "11:30",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-03-09-1300",
+          "date": "2027-03-09",
+          "start": "13:00",
+          "end": "14:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-03-10-1100",
+          "date": "2027-03-10",
+          "start": "11:00",
+          "end": "12:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-03-11-1100",
+          "date": "2027-03-11",
+          "start": "11:00",
+          "end": "12:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-03-12-1400",
+          "date": "2027-03-12",
+          "start": "14:00",
+          "end": "15:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-03-15-1030",
+          "date": "2027-03-15",
+          "start": "10:30",
+          "end": "11:30",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-03-16-1300",
+          "date": "2027-03-16",
+          "start": "13:00",
+          "end": "14:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-03-17-1100",
+          "date": "2027-03-17",
+          "start": "11:00",
+          "end": "12:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-03-18-1100",
+          "date": "2027-03-18",
+          "start": "11:00",
+          "end": "12:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-03-19-1400",
+          "date": "2027-03-19",
+          "start": "14:00",
+          "end": "15:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-03-22-1030",
+          "date": "2027-03-22",
+          "start": "10:30",
+          "end": "11:30",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-03-23-1300",
+          "date": "2027-03-23",
+          "start": "13:00",
+          "end": "14:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-03-24-1100",
+          "date": "2027-03-24",
+          "start": "11:00",
+          "end": "12:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-03-25-1100",
+          "date": "2027-03-25",
+          "start": "11:00",
+          "end": "12:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-03-26-1400",
+          "date": "2027-03-26",
+          "start": "14:00",
+          "end": "15:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-03-29-1300",
+          "date": "2027-03-29",
+          "start": "13:00",
+          "end": "14:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-03-30-1300",
+          "date": "2027-03-30",
+          "start": "13:00",
+          "end": "14:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-04-01-1300",
+          "date": "2027-04-01",
+          "start": "13:00",
+          "end": "14:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-04-02-1400",
+          "date": "2027-04-02",
+          "start": "14:00",
+          "end": "15:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-04-05-1300",
+          "date": "2027-04-05",
+          "start": "13:00",
+          "end": "14:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-04-06-1300",
+          "date": "2027-04-06",
+          "start": "13:00",
+          "end": "14:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-04-08-1300",
+          "date": "2027-04-08",
+          "start": "13:00",
+          "end": "14:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-04-09-1400",
+          "date": "2027-04-09",
+          "start": "14:00",
+          "end": "15:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-04-12-1300",
+          "date": "2027-04-12",
+          "start": "13:00",
+          "end": "14:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-04-13-1300",
+          "date": "2027-04-13",
+          "start": "13:00",
+          "end": "14:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-04-15-1300",
+          "date": "2027-04-15",
+          "start": "13:00",
+          "end": "14:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-04-16-1400",
+          "date": "2027-04-16",
+          "start": "14:00",
+          "end": "15:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-04-19-1300",
+          "date": "2027-04-19",
+          "start": "13:00",
+          "end": "14:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-04-20-1300",
+          "date": "2027-04-20",
+          "start": "13:00",
+          "end": "14:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-04-22-1300",
+          "date": "2027-04-22",
+          "start": "13:00",
+          "end": "14:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-04-23-1400",
+          "date": "2027-04-23",
+          "start": "14:00",
+          "end": "15:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-04-26-1300",
+          "date": "2027-04-26",
+          "start": "13:00",
+          "end": "14:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-skate-2027-04-27-1300",
+          "date": "2027-04-27",
+          "start": "13:00",
+          "end": "14:00",
+          "location": "CIF Arena",
+          "status": "scheduled",
+          "semester": "Winter 2027"
         }
       ]
     },
