@@ -104,6 +104,10 @@ describe("Open Rec Skate, Fall 2026", () => {
   it("treats an empty semester as no offerings", () => {
     expect(parseOfferings(fixture("winter.html"))).toBeNull();
   });
+
+  it("treats an offering whose schedule is not set as no offerings", () => {
+    expect(parseOfferings(fixture("cif-fitness-winter-unscheduled.html"))).toBeNull();
+  });
 });
 
 describe("multiple sessions per day", () => {

@@ -94,11 +94,15 @@ export function parseDays(text: string) {
 
 export function parseOfferings(html: string): Offerings | null {
   const $ = cheerio.load(html);
-  if ($(".offering-card").length === 0 && clean($.text()) === "There are no offerings available at this time") {
+  const cards = $(".offering-card .card-body.d-md-none > .schedule-summary");
+  if (
+    ($(".offering-card").length === 0 && clean($.text()) === "There are no offerings available at this time") ||
+    (cards.length === 0 && $.text().includes("Schedule not set"))
+  ) {
     return null;
   }
   const result: Offerings = { rules: [], changed: [], cancelled: [] };
-  $(".offering-card .card-body.d-md-none > .schedule-summary").each((_, card) => {
+  cards.each((_, card) => {
     const kind = $(card).find("[role=img]").first().attr("aria-label");
     const fields = $(card)
       .find("p.ps-2")
