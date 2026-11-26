@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T08:24:55.715Z",
+  "generatedAt": "2026-11-26T21:36:59.436Z",
   "timezone": "America/Toronto",
   "programs": [
     {
@@ -5035,7 +5035,7 @@
           "id": "open-rec-basketball-2026-12-01-2000-cif-gym-1",
           "date": "2026-12-01",
           "start": "20:00",
-          "end": "00:00",
+          "end": "21:00",
           "location": "CIF Gym 1",
           "status": "scheduled",
           "semester": "Fall 2026"
