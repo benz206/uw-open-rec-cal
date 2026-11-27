@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T21:36:59.436Z",
+  "generatedAt": "2026-11-27T21:21:51.248Z",
   "timezone": "America/Toronto",
   "programs": [
     {
@@ -1001,7 +1001,7 @@
         {
           "id": "f966b35d-96ad-4897-97c4-dd6eac9f1f1e",
           "name": "Winter 2027",
-          "hasOfferings": false
+          "hasOfferings": true
         }
       ],
       "sessions": [
@@ -3245,6 +3245,105 @@
           "location": "CIF Gym 3",
           "status": "scheduled",
           "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-badminton-2026-12-06-0900-cif-gym-3",
+          "date": "2026-12-06",
+          "start": "09:00",
+          "end": "12:00",
+          "location": "CIF Gym 3",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-badminton-2026-12-08-1130-cif-gym-3",
+          "date": "2026-12-08",
+          "start": "11:30",
+          "end": "12:30",
+          "location": "CIF Gym 3",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-badminton-2026-12-08-1900-cif-gym-3",
+          "date": "2026-12-08",
+          "start": "19:00",
+          "end": "00:30",
+          "location": "CIF Gym 3",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-badminton-2026-12-10-1130-cif-gym-3",
+          "date": "2026-12-10",
+          "start": "11:30",
+          "end": "12:30",
+          "location": "CIF Gym 3",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-badminton-2026-12-10-1430-cif-gym-3",
+          "date": "2026-12-10",
+          "start": "14:30",
+          "end": "17:00",
+          "location": "CIF Gym 3",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-badminton-2026-12-10-2130-cif-gym-3",
+          "date": "2026-12-10",
+          "start": "21:30",
+          "end": "00:00",
+          "location": "CIF Gym 3",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-badminton-2026-12-11-0600-cif-gym-3",
+          "date": "2026-12-11",
+          "start": "06:00",
+          "end": "08:30",
+          "location": "CIF Gym 3",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-badminton-2026-12-11-1130-cif-gym-3",
+          "date": "2026-12-11",
+          "start": "11:30",
+          "end": "12:30",
+          "location": "CIF Gym 3",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-badminton-2026-12-11-1430-cif-gym-3",
+          "date": "2026-12-11",
+          "start": "14:30",
+          "end": "17:30",
+          "location": "CIF Gym 3",
+          "status": "scheduled",
+          "semester": "Winter 2027"
+        },
+        {
+          "id": "open-rec-badminton-2026-12-12-0900-cif-gym-3",
+          "date": "2026-12-12",
+          "start": "09:00",
+          "end": "13:30",
+          "location": "CIF Gym 3",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-badminton-2026-12-12-1630-cif-gym-3",
+          "date": "2026-12-12",
+          "start": "16:30",
+          "end": "22:30",
+          "location": "CIF Gym 3",
+          "status": "scheduled",
+          "semester": "Fall 2026"
         }
       ]
     },
@@ -5053,7 +5152,7 @@
           "id": "open-rec-basketball-2026-12-02-1200-cif-gym-1",
           "date": "2026-12-02",
           "start": "12:00",
-          "end": "17:30",
+          "end": "21:00",
           "location": "CIF Gym 1",
           "status": "scheduled",
           "semester": "Fall 2026"
@@ -5118,6 +5217,78 @@
           "start": "19:30",
           "end": "00:00",
           "location": "PAC Main Gym",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-basketball-2026-12-06-1730-cif-gym-1",
+          "date": "2026-12-06",
+          "start": "17:30",
+          "end": "00:30",
+          "location": "CIF Gym 1",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-basketball-2026-12-07-1700-cif-gym-1",
+          "date": "2026-12-07",
+          "start": "17:00",
+          "end": "21:00",
+          "location": "CIF Gym 1",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-basketball-2026-12-08-1330-cif-gym-1",
+          "date": "2026-12-08",
+          "start": "13:30",
+          "end": "17:00",
+          "location": "CIF Gym 1",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-basketball-2026-12-08-2000-cif-gym-1",
+          "date": "2026-12-08",
+          "start": "20:00",
+          "end": "00:30",
+          "location": "CIF Gym 1",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-basketball-2026-12-09-1430-cif-gym-1",
+          "date": "2026-12-09",
+          "start": "14:30",
+          "end": "21:00",
+          "location": "CIF Gym 1",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-basketball-2026-12-10-2100-cif-gym-1",
+          "date": "2026-12-10",
+          "start": "21:00",
+          "end": "00:00",
+          "location": "CIF Gym 1",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-basketball-2026-12-11-2000-cif-gym-1",
+          "date": "2026-12-11",
+          "start": "20:00",
+          "end": "00:00",
+          "location": "CIF Gym 1",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-basketball-2026-12-12-1630-cif-gym-1",
+          "date": "2026-12-12",
+          "start": "16:30",
+          "end": "22:30",
+          "location": "CIF Gym 1",
           "status": "scheduled",
           "semester": "Fall 2026"
         }
@@ -10328,6 +10499,51 @@
           "location": "CIF Gym 1",
           "status": "scheduled",
           "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-futsol-2026-12-07-0600",
+          "date": "2026-12-07",
+          "start": "06:00",
+          "end": "15:30",
+          "location": "CIF Gym 1",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-futsol-2026-12-08-0600",
+          "date": "2026-12-08",
+          "start": "06:00",
+          "end": "11:30",
+          "location": "CIF Gym 1",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-futsol-2026-12-09-0600",
+          "date": "2026-12-09",
+          "start": "06:00",
+          "end": "08:30",
+          "location": "CIF Gym 1",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-futsol-2026-12-10-0600",
+          "date": "2026-12-10",
+          "start": "06:00",
+          "end": "12:30",
+          "location": "CIF Gym 1",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-futsol-2026-12-11-0600",
+          "date": "2026-12-11",
+          "start": "06:00",
+          "end": "17:30",
+          "location": "CIF Gym 1",
+          "status": "scheduled",
+          "semester": "Fall 2026"
         }
       ]
     },
@@ -10846,10 +11062,46 @@
           "semester": "Fall 2026"
         },
         {
-          "id": "open-rec-pickleball-2026-12-02-2130",
+          "id": "open-rec-pickleball-2026-12-02-2230",
           "date": "2026-12-02",
-          "start": "21:30",
+          "start": "22:30",
           "end": "00:00",
+          "location": "CIF Gym 3",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-pickleball-2026-12-07-1130",
+          "date": "2026-12-07",
+          "start": "11:30",
+          "end": "12:30",
+          "location": "CIF Gym 3",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-pickleball-2026-12-07-2100",
+          "date": "2026-12-07",
+          "start": "21:00",
+          "end": "00:30",
+          "location": "CIF Gym 3",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-pickleball-2026-12-09-1430",
+          "date": "2026-12-09",
+          "start": "14:30",
+          "end": "17:30",
+          "location": "CIF Gym 3",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-pickleball-2026-12-09-2100",
+          "date": "2026-12-09",
+          "start": "21:00",
+          "end": "00:30",
           "location": "CIF Gym 3",
           "status": "scheduled",
           "semester": "Fall 2026"
@@ -15022,20 +15274,137 @@
           "semester": "Fall 2026"
         },
         {
-          "id": "open-rec-volleyball-2026-12-12-0900-cif-gym-3",
-          "date": "2026-12-12",
-          "start": "09:00",
-          "end": "14:00",
+          "id": "open-rec-volleyball-2026-12-06-1700-cif-gym-2",
+          "date": "2026-12-06",
+          "start": "17:00",
+          "end": "00:00",
+          "location": "CIF Gym 2",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-volleyball-2026-12-06-2130-cif-gym-3",
+          "date": "2026-12-06",
+          "start": "21:30",
+          "end": "00:00",
           "location": "CIF Gym 3",
           "status": "scheduled",
           "semester": "Fall 2026"
         },
         {
-          "id": "open-rec-volleyball-2026-12-12-1600-cif-gym-3",
+          "id": "open-rec-volleyball-2026-12-07-0830-cif-gym-2",
+          "date": "2026-12-07",
+          "start": "08:30",
+          "end": "21:00",
+          "location": "CIF Gym 2",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-volleyball-2026-12-08-0600-cif-gym-2",
+          "date": "2026-12-08",
+          "start": "06:00",
+          "end": "08:30",
+          "location": "CIF Gym 2",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-volleyball-2026-12-08-1130-cif-gym-2",
+          "date": "2026-12-08",
+          "start": "11:30",
+          "end": "17:00",
+          "location": "CIF Gym 2",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-volleyball-2026-12-08-2000-cif-gym-2",
+          "date": "2026-12-08",
+          "start": "20:00",
+          "end": "00:00",
+          "location": "CIF Gym 2",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-volleyball-2026-12-09-0600-cif-gym-2",
+          "date": "2026-12-09",
+          "start": "06:00",
+          "end": "09:30",
+          "location": "CIF Gym 2",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-volleyball-2026-12-09-1430-cif-gym-2",
+          "date": "2026-12-09",
+          "start": "14:30",
+          "end": "18:30",
+          "location": "CIF Gym 2",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-volleyball-2026-12-10-0600-cif-gym-2",
+          "date": "2026-12-10",
+          "start": "06:00",
+          "end": "08:30",
+          "location": "CIF Gym 2",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-volleyball-2026-12-10-1130-cif-gym-2",
+          "date": "2026-12-10",
+          "start": "11:30",
+          "end": "15:00",
+          "location": "CIF Gym 2",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-volleyball-2026-12-10-1930-cif-gym-2",
+          "date": "2026-12-10",
+          "start": "19:30",
+          "end": "00:00",
+          "location": "CIF Gym 2",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-volleyball-2026-12-11-0600-cif-gym-2",
+          "date": "2026-12-11",
+          "start": "06:00",
+          "end": "08:30",
+          "location": "CIF Gym 2",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-volleyball-2026-12-11-1130-cif-gym-2",
+          "date": "2026-12-11",
+          "start": "11:30",
+          "end": "18:30",
+          "location": "CIF Gym 2",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-volleyball-2026-12-11-2100-cif-gym-2",
+          "date": "2026-12-11",
+          "start": "21:00",
+          "end": "00:00",
+          "location": "CIF Gym 2",
+          "status": "scheduled",
+          "semester": "Fall 2026"
+        },
+        {
+          "id": "open-rec-volleyball-2026-12-12-1630-cif-gym-2",
           "date": "2026-12-12",
-          "start": "16:00",
+          "start": "16:30",
           "end": "22:30",
-          "location": "CIF Gym 3",
+          "location": "CIF Gym 2",
           "status": "scheduled",
           "semester": "Fall 2026"
         }
